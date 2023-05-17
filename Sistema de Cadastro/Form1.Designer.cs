@@ -162,7 +162,6 @@
             this.radioO.Name = "radioO";
             this.radioO.Size = new System.Drawing.Size(51, 17);
             this.radioO.TabIndex = 2;
-            this.radioO.TabStop = true;
             this.radioO.Text = "Outro";
             this.radioO.UseVisualStyleBackColor = true;
             // 
@@ -173,13 +172,13 @@
             this.radioF.Name = "radioF";
             this.radioF.Size = new System.Drawing.Size(67, 17);
             this.radioF.TabIndex = 1;
-            this.radioF.TabStop = true;
             this.radioF.Text = "Feminino";
             this.radioF.UseVisualStyleBackColor = true;
             // 
             // radioM
             // 
             this.radioM.AutoSize = true;
+            this.radioM.Checked = true;
             this.radioM.Location = new System.Drawing.Point(17, 23);
             this.radioM.Name = "radioM";
             this.radioM.Size = new System.Drawing.Size(73, 17);
@@ -197,6 +196,7 @@
             this.lista.Name = "lista";
             this.lista.Size = new System.Drawing.Size(661, 129);
             this.lista.TabIndex = 12;
+            this.lista.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lista_MouseDoubleClick);
             // 
             // btnCadastra
             // 
